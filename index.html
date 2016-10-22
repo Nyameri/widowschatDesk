@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Web Notifications</title>
+    <script>
+      if("Notification"in windows){
+        let ask=Notification.requestPermission();
+        ask,then(Permission =>{
+          if(permission === "granted"){
+            let msg = new Notification ("Title"),{
+              body:"Hello,widowschatDeskUser"
+              icon:"webimage.png"
+              ));
+              msg.addEventsListeners("click"),event =>{
+              alert ("click received");
+            });
+          }
+    </script>
+  </head>
+  <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=640">
@@ -21,7 +38,7 @@
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/Nyameri/widowschatDesk">View on GitHub</a>
+    <a id="forkme_banner" href="https://github.com/Nyameri/widowschatDesk(ii)">View on GitHub</a>
     <div class="shell">
 
       <header>
