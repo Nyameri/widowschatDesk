@@ -111,7 +111,7 @@ WE'VE DONE IT OURSELVES  ----lao tsu
 
 7
 
-THEY WANTED TO ALLEVIATE POVERTY
+THEY WANTED TO ALLEVIATE POVERTY:
 mca's of nyamira,a comfortable county,took a goodwill
 tour and visited a low~income village.
 they returned with the idea that the people of their
